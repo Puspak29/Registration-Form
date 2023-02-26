@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(207, 183, 211);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input, select, textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#fname {
+    grid-column-start: 25;
+}
+
+button[type=submit]:hover {
+    background-color: #c7dedc;
+}
