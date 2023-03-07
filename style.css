@@ -1,0 +1,26 @@
+body {
+    display: flex; justify-content: center;
+    background-color: rgb(207, 183, 211);
+}
+
+#mainDiv{
+    width: 28%;
+}
+
+#headDiv{
+    text-align: center;
+}
+
+.lside{
+    width: 49%;
+    float: left;
+}
+
+.rside{
+    width: 49%;
+    float: right;
+}
+
+#btnSubmit:hover {
+    background-color: #c7dedc;
+}
